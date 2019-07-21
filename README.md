@@ -115,6 +115,4 @@ The function in the above plots is convex for positive and negative values. But 
 <p align="center">
 <img src="img_functions.png"></img>
 </p>
-We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. Additionally, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>)
-
-I hope you enjoyed reading this article and got a intuitive understanding what is meant by Jensen's Inequality.
+We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. Additionally, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>). I hope you enjoyed reading this article and got a intuitive understanding what is meant by Jensen's Inequality.
