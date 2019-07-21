@@ -23,7 +23,7 @@ std = 1
 n = 100
 ```
 
-Next step is to define a function and its reverse function. In our example we choose the following convex function:
+Next step is to define a function and its reverse function. In our example we choose the following strictly convex function:
 
 <p align="center">
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(X)&space;=&space;x^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(X)&space;=&space;x^2" title="f(X) = x^2" /></a>
