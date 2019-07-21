@@ -67,7 +67,7 @@ def gen_data(mean, std, n):
     return x, y, e_x, e_f_x
  ```
  
-Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot with f(E(x)) and E(f(x)). For example, if <i>x</i> = [1,2] these values are computed as follows:
+Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot that shows f(E(x)) and E(f(x)). For example, if <i>x</i> = [1,2] these values are computed as follows:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" title="E(X) = \frac{1+2}{2}=1.5" /></a>
 
