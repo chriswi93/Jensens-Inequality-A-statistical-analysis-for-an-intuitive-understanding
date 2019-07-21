@@ -62,13 +62,13 @@ def gen_data(mean, std, n):
  
 Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot with f(E(x)) and E(f(x)). For example, if <i>x</i> = [1,2] we comput these values as follows:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" title="E(X) = \frac{1+2}{2}=1.5" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" title="E(X) = \frac{1+2}{2}=1.5" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;f(E(X))&space;=&space;f(1.5)&space;=&space;1.5^2&space;=&space;2.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f(E(X))&space;=&space;f(1.5)&space;=&space;1.5^2&space;=&space;2.25" title="f(E(X)) = f(1.5) = 1.5^2 = 2.25" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(E(X))&space;=&space;f(1.5)&space;=&space;1.5^2&space;=&space;2.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(E(X))&space;=&space;f(1.5)&space;=&space;1.5^2&space;=&space;2.25" title="f(E(X)) = f(1.5) = 1.5^2 = 2.25" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;f([1,2])&space;=&space;[1,4]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f([1,2])&space;=&space;[1,4]" title="f([1,2]) = [1,4]" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f([1,2])&space;=&space;[1,4]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f([1,2])&space;=&space;[1,4]" title="f([1,2]) = [1,4]" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;E(f(x))&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;E(f(x))&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" title="E(f(x)) = \frac{1+4}{2} = 2.5" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;{\color{Red}&space;E(f(x))}&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;{\color{Red}&space;E(f(x))}&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" title="{\color{Red} E(f(x))} = \frac{1+4}{2} = 2.5" /></a>
 
  
 ```python
