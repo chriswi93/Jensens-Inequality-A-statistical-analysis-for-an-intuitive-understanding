@@ -44,3 +44,36 @@ pylab.plot(x_negative,y_negative, color="C0")
 pylab.plot(x_positive,y_positive, color="C0")
 pylab.show() # show the plot
 ```
+<img src="img_x2.png"/>
+
+Now we define a function to sample random values from our normal distribution:
+
+```python
+def gen_data(mean, std, n):
+    x = np.random.normal(mean,std,(n)) # sample 100 values
+    y = []
+
+    e_x = np.mean(x) # compute E(x)
+    for _x in x:
+        y.append(f(_x))
+    e_f_x = np.mean(y)  # compute E(f(x))
+    return x, y, e_x, e_f_x
+ ```
+ 
+ Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot:
+ 
+```python
+x, y, e_x, e_f_x = gen_data(mean,std,n) # sample data for positive value range
+pylab.scatter(x, y, s=2)
+f_e_x_label = pylab.scatter(e_x, f(e_x), s=50, color='black', label='f(E(x)) = ' + str(round(f(e_x),2)))
+e_f_x_label = pylab.scatter(f_reverse(e_f_x), e_f_x, s=50, color='red', label='E(f(x)) = ' + str(round(e_f_x,2)))
+pylab.legend(handles=[f_e_x_label, e_f_x_label])
+pylab.show() # show the plot
+```
+<img src="img_x2_positive.png"/>
+```python
+e_f_x >= f(e_x)
+```
+```python
+True
+```
