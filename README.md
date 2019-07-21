@@ -86,7 +86,7 @@ As you can see in the plot, the red point is above the black point. Therefore, t
 ```python
 f(e_x) <= e_f_x
 ```
-```python
+```
 True
 ```
 
@@ -96,7 +96,7 @@ We can also plot it for negative values:
 ```python
 f(e_x) <= e_f_x
 ```
-```python
+```
 True
 ```
 
