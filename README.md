@@ -44,7 +44,7 @@ pylab.plot(x_negative,y_negative, color="C0")
 pylab.plot(x_positive,y_positive, color="C0")
 pylab.show() # show the plot
 ```
-<img src="img_x2.png"/>
+<img src="img_x2.png"></img>
 
 Now we define a function to sample random values from our normal distribution:
 
@@ -60,7 +60,7 @@ def gen_data(mean, std, n):
     return x, y, e_x, e_f_x
  ```
  
- Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot:
+Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot:
  
 ```python
 x, y, e_x, e_f_x = gen_data(mean,std,n) # sample data for positive value range
@@ -70,10 +70,28 @@ e_f_x_label = pylab.scatter(f_reverse(e_f_x), e_f_x, s=50, color='red', label='E
 pylab.legend(handles=[f_e_x_label, e_f_x_label])
 pylab.show() # show the plot
 ```
-<img src="img_x2_positive.png"/>
+<img src="img_x2_positive.png"></img>
+
+As you can see in the plot, the red point is above the black point. Therefore, the condition of Jensen's Inequality holds, no matter how often the experiment is repeated:
+
 ```python
-e_f_x >= f(e_x)
+f(e_x) <= e_f_x
 ```
 ```python
 True
 ```
+
+We can also plot it for negative values:
+<img src="img_x2_negative.png"></img>
+
+```python
+f(e_x) <= e_f_x
+```
+```python
+True
+```
+
+The function in the above plots is convex for positive and negative values. But there are functions for which the convexity is dependend on its value range. Let's plot different functions:
+
+<img src="img_functions.png"></img>
+
