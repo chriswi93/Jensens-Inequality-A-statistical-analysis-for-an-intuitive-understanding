@@ -1,7 +1,6 @@
-<h1>Recap Jensen's Ineqaulity - A statistical simulation of convex functions for an intuitive understanding</h1>
+<h1>Recap Jensen's Ineqaulity - A statistical analysis of convex functions for an intuitive understanding</h1>
   
-Jensen's Ineqaulity is an equation that holds for every convex function (and value range of non-strictly convex functions). It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2016).
-Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
+Jensen's Ineqaulity is a condition that always holds for convex functions (and value range of non-strictly convex functions). It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2016). The goal of this article is to give an intuitive understanding what Jensen's Inequality means. This articles does not recap the mathematical proof of Jensen's Inequality. Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
 
 <p align="center">
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(E(X))&space;\leq&space;E(f(X))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(E(X))&space;\leq&space;E(f(X))" title="f(E(X)) \leq E(f(X))" /></a>
@@ -116,6 +115,6 @@ The function in the above plots is convex for positive and negative values. But 
 <p align="center">
 <img src="img_functions.png"></img>
 </p>
-We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. 
+We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. Additionally, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>)
 
 I hope you enjoyed reading this article and got a intuitive understanding what is meant by Jensen's Inequality.
