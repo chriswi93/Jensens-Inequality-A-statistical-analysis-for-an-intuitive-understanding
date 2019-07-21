@@ -1,4 +1,4 @@
-<h1>Recap Jensen's Ineqaulity - A statistical simulation of convex functions for an intuitive understanding
+<h1>Recap Jensen's Ineqaulity - A statistical simulation of convex functions for an intuitive understanding</h1>
   
 Jensen's Ineqaulity is an equation that holds for every convex function. It is an key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2016).
 Jensen's Inequality states the fact that the function outcome of a convex function with input the expected value of a random variable <i>X</i> is always equal or smaller than the expected value of the convex function outcome.
