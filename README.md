@@ -60,7 +60,7 @@ def gen_data(mean, std, n):
     return x, y, e_x, e_f_x
  ```
  
-Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot with f(E(x)) and E(f(x)). For example, if <i>x</i> = [1,2] we comput these values as follows:
+Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot with f(E(x)) and E(f(x)). For example, if <i>x</i> = [1,2] these values are computed as follows:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;E(X)&space;=&space;\frac{1&plus;2}{2}=1.5" title="E(X) = \frac{1+2}{2}=1.5" /></a>
 
@@ -68,7 +68,7 @@ Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f([1,2])&space;=&space;[1,4]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f([1,2])&space;=&space;[1,4]" title="f([1,2]) = [1,4]" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;{\color{Red}&space;E(f(x))}&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;{\color{Red}&space;E(f(x))}&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" title="{\color{Red} E(f(x))} = \frac{1+4}{2} = 2.5" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;{&space;E(f(x))&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;{\color{Red}&space;E(f(x))}&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" title="{\color{Red} E(f(x))} = \frac{1+4}{2} = 2.5" /></a>
 
  
 ```python
