@@ -3,11 +3,15 @@
 Jensen's Ineqaulity is an equation that holds for every convex function (and value range of non-strictly convex functions). It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2016).
 Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;f(E(X))&space;\leq&space;E(f(X))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f(E(X))&space;\leq&space;E(f(X))" title="f(E(X)) \leq E(f(X))" /></a>
+<p align="center">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(E(X))&space;\leq&space;E(f(X))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(E(X))&space;\leq&space;E(f(X))" title="f(E(X)) \leq E(f(X))" /></a>
+</p>
 
 This statement is very abstract and it is not trivial to understand. Therefore, let's look at an example. We assume that the random variable <i>X</i> is randomly drawn from a normal distribution with &mu; = 3 and &sigma; = 1. In our example we draw n = 100 samples.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;X&space;\sim&space;N(3,1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;X&space;\sim&space;N(3,1)" title="X \sim N(3,1)" /></a>
+<p align="center">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;X&space;\sim&space;N(3,1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;X&space;\sim&space;N(3,1)" title="X \sim N(3,1)" /></a>
+</p>
 
 ```python
 import numpy as np
@@ -22,7 +26,9 @@ n = 100
 
 Next step is to define a function and its reverse function. In our example we choose the following convex function:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{110}&space;f(X)&space;=&space;x^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f(X)&space;=&space;x^2" title="f(X) = x^2" /></a>
+<p align="center">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(X)&space;=&space;x^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(X)&space;=&space;x^2" title="f(X) = x^2" /></a>
+</p>
 
 ```python
 def f(x):
@@ -66,7 +72,7 @@ Next step is to sample positive values for <i>x</i> and <i>y</i> and draw a plot
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(E(X))&space;=&space;f(1.5)&space;=&space;1.5^2&space;=&space;2.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(E(X))&space;=&space;f(1.5)&space;=&space;1.5^2&space;=&space;2.25" title="f(E(X)) = f(1.5) = 1.5^2 = 2.25" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f([1,2])&space;=&space;[1,4]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{110}&space;f([1,2])&space;=&space;[1,4]" title="f([1,2]) = [1,4]" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f([1,2])&space;=&space;[1,4]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f([1,2])&space;=&space;[1,4]" title="f([1,2]) = [1,4]" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;&space;E(f(x))&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;&space;E(f(x))&space;=&space;\frac{1&plus;4}{2}&space;=&space;2.5" title="{\color{Red} E(f(x))} = \frac{1+4}{2} = 2.5" /></a>
 
@@ -90,7 +96,7 @@ f(e_x) <= e_f_x
 True
 ```
 
-We can also plot it for negative values:
+We can also plot it for negative values:<br>
 <img src="img_x2_negative.png"></img>
 
 ```python
@@ -104,4 +110,6 @@ The function in the above plots is convex for positive and negative values. But 
 
 <img src="img_functions.png"></img>
 
-We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. I hope you enjoyed reading this article and got a good understanding what is meant by Jensen's Inequality.
+We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. 
+
+I hope you enjoyed reading this article and got a intuitive understanding what is meant by Jensen's Inequality.
