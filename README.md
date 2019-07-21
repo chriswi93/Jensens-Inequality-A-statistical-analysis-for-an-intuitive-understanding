@@ -1,3 +1,5 @@
+<h1>Jensen's Inequality</h1>
+
 Jensen's Inequality is a condition that always holds for convex functions (and value range of non-strictly convex functions). It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2016). The goal of this article is to give an intuitive understanding what Jensen's Inequality means. This articles does not recap the mathematical proof of Jensen's Inequality. Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
 
 <p align="center">
@@ -48,7 +50,7 @@ pylab.plot(x_positive,y_positive, color="C0")
 pylab.show() # show the plot
 ```
 <p align="center">
-<img src="img_x2.png"></img>
+<img src="img_x2.png" />
 </p>
 
 Now we define a function to sample random values from our normal distribution:
@@ -85,7 +87,7 @@ pylab.legend(handles=[f_e_x_label, e_f_x_label])
 pylab.show() # show the plot
 ```
 <p align="center">
-<img src="img_x2_positive.png"></img>
+<img src="img_x2_positive.png" />
 </p>
 
 As you can see in the plot, the red point is above the black point. Therefore, the condition of Jensen's Inequality holds, no matter how often the experiment is repeated:
@@ -99,7 +101,7 @@ True
 
 We can also plot it for negative values:<br>
 <p align="center">
-<img src="img_x2_negative.png"></img>
+<img src="img_x2_negative.png" />
 </p>
 
 ```python
@@ -111,6 +113,6 @@ True
 
 The function in the above plots is convex for positive and negative values. But there are functions in which the convexity is dependend on its value range. Let's plot different functions:
 <p align="center">
-<img src="img_functions.png"></img>
+<img src="img_functions.png" />
 </p>
 We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. Additionally, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>). I hope you enjoyed reading this article and got an intuitive understanding what is meant by Jensen's Inequality.
