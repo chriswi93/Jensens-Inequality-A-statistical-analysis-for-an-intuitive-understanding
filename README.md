@@ -1,11 +1,4 @@
 <link rel="stylesheet" href="stylesheet.min.css">
-<div class="card">
-  <div class="container">
-    <h4><b>Christoph Winkler</b></h4> 
-    <p>M. Sc. Business Information Systems, Data Scientist</p>
-  </div>
-</div>
-
 <h1>Jensen's Inequality - A statistical analysis for an intuitive understanding</h1>
 
 Jensen's Inequality is a condition that always holds for convex functions (and value range of non-strictly convex functions). It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2017). The goal of this article is to give an intuitive understanding what Jensen's Inequality means. This articles does not recap the mathematical proof of Jensen's Inequality. Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
@@ -124,6 +117,13 @@ The function in the above plots is convex for positive and negative values. Howe
 <img src="img_functions.png" />
 </p>
 We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. As expected, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>). I hope you enjoyed reading this article and got an intuitive understanding what is meant by Jensen's Inequality.
+
+<div class="card">
+  <div class="container">
+    <h4><b>Christoph Winkler</b></h4> 
+    <p>M. Sc. Business Information Systems, Data Scientist</p>
+  </div>
+</div>
 
 <h2>References</h2>
 <i>Blei, D. M., Kucukelbir, A., McAuliffe, J. D.</i> (2017): Variational inference: A review for statisticians. Journal of the American Statistical Association, 112(518), 859-877.
