@@ -115,7 +115,7 @@ f(e_x) <= e_f_x
 True
 ```
 
-The function in the above plots is convex for positive and negative values. However, there are also functions in which the convexity is dependend on its value range. Therefore, let's plot different functions:
+The function in the above plots is convex for positive and negative values. However, there are also functions in which the convexity is dependent on its value range. Therefore, let's plot different functions:
 <p align="center">
 <img src="img_functions.png" />
 </p>
