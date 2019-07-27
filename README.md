@@ -120,8 +120,8 @@ We can see that Jensens's Inequality also holds for different value ranges of no
 
 <div class="card">
   <div class="container">
-      <p style=""><b>Christoph Winkler</b></p> 
-      <p><i>M. Sc. Business Information Systems, Data Scientist</i></p>
+      <p style="font-size: 10px;"><i>Christoph Winkler<br>
+      M. Sc. Business Information Systems, Data Scientist</i></p>
   </div>
 </div>
 
