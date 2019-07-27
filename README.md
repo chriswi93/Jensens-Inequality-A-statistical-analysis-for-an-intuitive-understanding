@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="stylesheet.min.css">
 <h1>Jensen's Inequality - A statistical analysis for an intuitive understanding</h1>
 <p align="left" style="font-size:14px;"><b>Christoph Winkler</b><br>
-<i>M. Sc. Business Information Systems, Data Scientist</i></p>
-<div style="text-align: center;font-size:14px;">"Generative Modeling is simply about modeling <i>How the world could be</i> and not necessarily <i>How the world actually is</i>."</div>
+<i>M. Sc. Business Information Systems, Data Scientist</i><br>
+<div style="text-align: center; margin-top: 0px; font-size:14px;">"Generative Modeling is simply about modeling <i>How the world could be</i> and not necessarily <i>How the world actually is</i>."</div></p>
 <br>
 
 Jensen's Inequality is a condition that always holds for convex functions. It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2017) which enables powerful and efficiently computed  generative models like Latent Dirichlet Allocation (Blei et al. 2003) or Variational Autoencoder (Kingma and Welling 2013). The goal of this article is to give an intuitive understanding what Jensen's Inequality means. This articles does not recap the mathematical proof of Jensen's Inequality. <br><br>
