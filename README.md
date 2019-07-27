@@ -124,4 +124,5 @@ We can see that Jensens's Inequality also holds for different value ranges of no
 
 <h2>References</h2>
 <p><i>Blei, D. M., Kucukelbir, A., McAuliffe, J. D.</i> (2017): Variational inference: A review for statisticians. Journal of the American Statistical Association, 112(518), 859-877.</p>
+<p><i>Blei, D. M., Ng, A. Y., Jordan, M. I.</i> (2003): Latent dirichlet allocation. Journal of machine Learning research, 3(Jan), 993-1022.</p>
 <p><i>Kingma, D. P., Welling, M.</i> (2013): Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.</p>
