@@ -4,7 +4,8 @@
 <i>M. Sc. Business Information Systems, Data Scientist</i></p>
 
 <div style="font-family: Times New Roman;">
-Jensen's Inequality is a condition that always holds for convex functions (and value range of non-strictly convex functions). It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2017). The goal of this article is to give an intuitive understanding what Jensen's Inequality means. This articles does not recap the mathematical proof of Jensen's Inequality. Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
+Jensen's Inequality is a condition that always holds for convex functions. It is a key point to understand the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference of Blei et al. (2017) which make powerful generative models like Latent Dirichlet Allocation (Blei et al. 2003) or Variational Autoencoder (Kingma and Welling 2013) efficient and applicable in practice. The goal of this article is to give an intuitive understanding what Jensen's Inequality means. This articles does not recap the mathematical proof of Jensen's Inequality. <br>
+Jensen's Inequality states the fact that the function outcome of a convex function with the expected value of a random variable <i>X</i> as input is always equal or smaller than the expected value of the convex function outcome.
 
 <p align="center">
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;f(E(X))&space;\leq&space;E(f(X))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;f(E(X))&space;\leq&space;E(f(X))" title="f(E(X)) \leq E(f(X))" /></a>
@@ -123,3 +124,4 @@ We can see that Jensens's Inequality also holds for different value ranges of no
 
 <h2>References</h2>
 <i>Blei, D. M., Kucukelbir, A., McAuliffe, J. D.</i> (2017): Variational inference: A review for statisticians. Journal of the American Statistical Association, 112(518), 859-877.
+<i>Kingma, D. P., Welling, M.</i> (2013): Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.
