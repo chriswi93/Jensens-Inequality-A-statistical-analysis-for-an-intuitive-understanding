@@ -1,10 +1,11 @@
 <h1>Jensen's Inequality - A statistical analysis for an intuitive understanding</h1>
 
+<div style="display:none;">
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40%;
+  width: 50%;
 }
 
 .card:hover {
@@ -15,6 +16,7 @@
   padding: 2px 16px;
 }
 </style>
+</div>
 
 <div class="card">
   <div class="container">
