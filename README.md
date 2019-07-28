@@ -120,7 +120,9 @@ The function in the above plots is convex for positive and negative values. Howe
 <p align="center">
 <img src="img_functions.png" />
 </p>
-We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. As expected, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>). I hope you enjoyed reading this article and got an intuitive understanding what is meant by Jensen's Inequality. In my next article you will see why this is important to know for the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference.
+We can see that Jensens's Inequality also holds for different value ranges of non-strictly convex functions. As expected, Jensen's Inequality does not hold for function ranges that are non-convex (e.g. <i>x^3</i> for <i>x</i> < 0) and functions that are strictly non-convex (e.g. the root of <i>x</i>). However, since linear functions are the only kind of functions that are convex as well as concave, the red point exactly equals the black point.
+
+I hope you enjoyed reading this article and got an intuitive understanding what is meant by Jensen's Inequality. In my next article you will see why this is important to know for the derivation of the <i>Evidence Lower Bound (ELBO)</i> in Variational Inference.
 
 <h2>References</h2>
 <p><i>Blei, D. M., Kucukelbir, A., McAuliffe, J. D.</i> (2017): Variational inference: A review for statisticians. Journal of the American Statistical Association, 112(518), 859-877.</p>
